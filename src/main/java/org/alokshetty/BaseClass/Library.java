@@ -15,7 +15,7 @@ public class Library {
     public static Properties prop;
     public static  WebDriver driver;
    public void launchApplication() throws IOException {
-       FileInputStream input =new FileInputStream("E:/Flipcart Automation/src/test/resources/ConfigProperties/config.properties");
+       FileInputStream input =new FileInputStream("src/test/resources/ConfigProperties/config.properties");
        prop=new Properties();
        prop.load(input);
 
