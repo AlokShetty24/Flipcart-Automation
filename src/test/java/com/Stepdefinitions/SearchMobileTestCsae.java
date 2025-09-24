@@ -22,8 +22,6 @@ public class SearchMobileTestCsae extends Library {
     @Then("It should Navigate to the Home Page")
     public void it_should_navigate_to_the_home_page() {
          searchPage =new SearchPage(driver);
-         searchPage.Search("Mobile");
-         searchPage.clickSearch();
 
     }
     @Given("User Enter the text in search field")

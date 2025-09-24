@@ -21,7 +21,7 @@ public class SearchPage extends Library {
     @FindBy(xpath = "//html[@lang='en-IN']")
     WebElement  HomePage;
 
-    @FindBy(xpath = "//html[@class='en-fonts-loaded']")
+    @FindBy(xpath = "/html/body/div[1]")
     WebElement SearchResult;
     public void Search(String text)
     {
